@@ -1,0 +1,132 @@
+/*----LOGIN----*/
+
+#formulario{
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgb(26, 26, 26);
+}
+#image{
+    border: 3px solid white;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*-----------INDEX------------*/
+
+.navbar .navbar-nav .nav-but a{
+    margin: 5px;
+}
+.nav-item a:hover{
+    background-color: red;
+    color: white;
+}
+/*----------Carrusel--------*/
+.carousel-control-prev,
+.carousel-control-next{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    top: calc(50% - 30px);
+    opacity: .8;
+}
+.carousel-control-prev{
+    left: 2%;
+}
+.carousel-control-next{
+    right: 2%;
+}
+/*-------Productos----------*/
+.titulo{
+    width: 20%;
+    margin: 0;
+    height: 30px;
+    background: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.titulo p{
+    margin: 0;
+    font-size: 100%;
+}
+.bordeinferior{
+    width: 98%;
+    height: auto;
+    margin: 10px;
+    padding: 0;
+    border-bottom: 5px solid red;
+}
+#card{
+    max-width: 30em;
+    flex-direction: row;
+}
+#card img{
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+#card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.text-section{
+    max-width: 60%;
+}
+.cta-section{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.cta-section .btn{
+    padding: 0.3em 0.5em;
+    font-size: 100%;
+}
+
+
+
+
+/*---------BLOG---------*/
+.parrafo::first-letter{
+    font-size: 30px;
+}
+.parrafo::selection {
+    color: red;
+    background-color: yellow;
+  }
+
+/*---------PRODUCTOS---------*/
+
+.f-genero, .f-precio{
+    accent-color: red;
+}
+
+/*--------PERFIL-----------*/
+.navp a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+.navp{
+    list-style: none;
+}
+
+.navp a{
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navp a:hover{
+    background-color: gold;
+}
