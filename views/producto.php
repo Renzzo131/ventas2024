@@ -70,7 +70,7 @@
                             <div class="col-12">
                                 <p class="text-end" style="font-weight: 700;">S/120.00</p>
                             </div>
-                            <a href="./detalle.html" class="btn btn-dark col-12">Ve detalles</a>
+                            <a href="<?php echo BASE_URL?>/detalle" class="btn btn-dark col-12">Ve detalles</a>
                         </div>
                     </div>
                 </div>
