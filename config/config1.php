@@ -6,3 +6,4 @@
 
     //Ingresar link del proyecto
     const BASE_URL = '';
+?>

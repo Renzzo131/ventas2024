@@ -28,7 +28,7 @@
                 <a href="#" class="text-light d-flex justify-content-end">¿Olvidaste tu contraseña?</a>
             </div>
             <div class="col-md-12 d-flex justify-content-around mb-3">
-                <a href="../index.html" type="button" class="btn btn-danger" style="background-color: red;">Iniciar sesión</a>
+                <a href="<?php echo BASE_URL;?>/inicio" type="button" class="btn btn-danger" style="background-color: red;">Iniciar sesión</a>
             </div>
             <div class="col-12 mb-3">
                 <p class="text-light text-center m-0 p-0">- o -</p>
